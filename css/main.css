@@ -1,0 +1,22 @@
+main{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+.s1,footer{background:#fcc;}
+.s2{background:#cfc;}
+.s3{background:#ccf;}
+.s4{background:#ffc;}
+.s5{background:#fcf;}
+.s6,header{background:#cff;}
+.s7{background:#f8c;}
+.s8{background:#fc8;}
+.s9,nav{background:#cf8;}
+
+
+main > *{
+  min-width: 300px;
+}
