@@ -2,7 +2,7 @@ main{
 display:flex;
 width:900px;
 background:#ccc;
-height:950px;
+height:1300px;
 
 
 flex-direction: column;
@@ -13,10 +13,11 @@ flex-basis:200px;
 }
 .s2{background:#cfc;
 flex-basis:300px;
-flex-grow: 1;
+flex-grow: 0;
 }
 .s3{background:#ccf;
 flex-basis:300px;
+flex-grow: 1;
 
 }
 .s4{background:#ffc;
@@ -26,10 +27,11 @@ flex-basis:200px}
 
 .s6{background:#cff;
 flex-basis:200px;
-flex-grow: 1;
+flex-grow: 0;
 }
 .s7{background:#f8c;
 flex-basis:200px;
+flex-grow: 1;
 
 }
 .s8{background:#fc8;
@@ -37,5 +39,5 @@ flex-basis:400px;
 }
 .s9{background:#cf8;
 flex-basis:400px;
-flex-grow: 1;
+flex-grow: 0;
 }
