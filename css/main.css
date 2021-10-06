@@ -10,8 +10,9 @@ flex-wrap: wrap;
 }
 .s1{background:#fcc;
 flex-basis:200px;
+
 }
-.s2{background:#cfc;
+.s2{background:rgb(228, 250, 28);
 flex-basis:300px;
 flex-grow: 0;
 }
@@ -22,7 +23,7 @@ flex-grow: 1;
 }
 .s4{background:#ffc;
 flex-basis:200px}
-.s5{background:#fcf;
+.s5{background:rgb(206, 23, 206);
 flex-basis:200px}
 
 .s6{background:#cff;
