@@ -1,17 +1,25 @@
 main {
-  display: flex;
+  display: grid;
   width: 900px;
   background: #ccc;
   height: 1300px;
 
+  grid-template-rows: 300px 300px 300px;
+  grid-template-columns: 1fr 1fr 1fr;
+
   flex-direction: column;
   flex-wrap: wrap;
 }
+.nav {
+  background: #cf8;
+}
+
 .s1 {
   background: #fcc;
   flex-basis: 200px;
   text-align: center;
   font-family: "Courier New", Courier, monospace;
+  grid-column: 1/-1;
 }
 .s2 {
   background: rgb(228, 250, 28);
@@ -29,15 +37,15 @@ main {
   flex-basis: 200px;
 }
 .s5 {
-  background: rgb(206, 23, 206);
-  flex-basis: 200px;
+  background: #ffc0cb;
+  grid-row: 2/6;
+  grid-column: 2;
 }
 
 .s6 {
   background: #cff;
   flex-basis: 200px;
   flex-grow: 0;
-  width: 500px;
 }
 .s7 {
   background: #f8c;
@@ -50,6 +58,12 @@ main {
 }
 .s9 {
   background: #cf8;
+  flex-basis: 400px;
+  flex-grow: 0;
+}
+
+.footer {
+  background: rgb(201, 12, 128);
   flex-basis: 400px;
   flex-grow: 0;
 }

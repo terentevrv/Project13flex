@@ -1,0 +1,38 @@
+main {
+  display: grid;
+  /* grid-template-columns: 100px repeat(auto-fill, 200px); */
+  grid-template-columns: 100px repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-rows: ;
+  grid-auto-rows: 100px 30px;
+}
+
+.s1,
+footer {
+  background: #fcc;
+}
+.s2 {
+  background: #cfc;
+}
+.s3 {
+  background: #ccf;
+}
+.s4 {
+  background: #ffc;
+}
+.s5 {
+  background: #fcf;
+}
+.s6,
+header {
+  background: #cff;
+}
+.s7 {
+  background: #f8c;
+}
+.s8 {
+  background: #fc8;
+}
+.s9,
+nav {
+  background: #cf8;
+}
