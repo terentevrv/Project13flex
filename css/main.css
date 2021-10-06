@@ -1,44 +1,55 @@
-main{
-display:flex;
-width:900px;
-background:#ccc;
-height:1300px;
+main {
+  display: flex;
+  width: 900px;
+  background: #ccc;
+  height: 1300px;
 
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.s1 {
+  background: #fcc;
+  flex-basis: 200px;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
+.s2 {
+  background: rgb(228, 250, 28);
+  flex-basis: 300px;
+  flex-grow: 0;
+  font-family: "Courier New", Courier, monospace;
+}
+.s3 {
+  background: #ccf;
+  flex-basis: 300px;
+  flex-grow: 1;
+}
+.s4 {
+  background: #ffc;
+  flex-basis: 200px;
+}
+.s5 {
+  background: rgb(206, 23, 206);
+  flex-basis: 200px;
+}
 
-flex-direction: column;
-flex-wrap: wrap;
+.s6 {
+  background: #cff;
+  flex-basis: 200px;
+  flex-grow: 0;
+  width: 500px;
 }
-.s1{background:#fcc;
-flex-basis:200px;
-
+.s7 {
+  background: #f8c;
+  flex-basis: 200px;
+  flex-grow: 1;
 }
-.s2{background:rgb(228, 250, 28);
-flex-basis:300px;
-flex-grow: 0;
+.s8 {
+  background: #fc8;
+  flex-basis: 400px;
 }
-.s3{background:#ccf;
-flex-basis:300px;
-flex-grow: 1;
-
-}
-.s4{background:#ffc;
-flex-basis:200px}
-.s5{background:rgb(206, 23, 206);
-flex-basis:200px}
-
-.s6{background:#cff;
-flex-basis:200px;
-flex-grow: 0;
-}
-.s7{background:#f8c;
-flex-basis:200px;
-flex-grow: 1;
-
-}
-.s8{background:#fc8;
-flex-basis:400px;
-}
-.s9{background:#cf8;
-flex-basis:400px;
-flex-grow: 0;
+.s9 {
+  background: #cf8;
+  flex-basis: 400px;
+  flex-grow: 0;
 }
